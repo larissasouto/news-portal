@@ -1,0 +1,12 @@
+@import '../../style-dictionary-dist/variables.scss';
+
+.paragraph-text {
+    font-size: $token-font-size-xs;
+    font-family: $token-font-family-highlight;
+    font-weight: $token-font-weight-regular;
+    line-height: $token-line-height-distant;
+    color: $token-neutral-color-2;
+    margin: auto;
+    width: 370px;
+    height: auto;
+}
