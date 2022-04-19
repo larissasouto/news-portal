@@ -1,0 +1,12 @@
+@import '../../style-dictionary-dist/variables.scss';
+
+.subtitle-text {
+    font-size: $token-font-size-md;
+    font-family: $token-font-family-highlight;
+    font-weight: $token-font-weight-medium;
+    line-height: $token-line-height-medium;
+    color: $token-neutral-color-2;
+    margin: auto;
+    width: 370px;
+    height: auto;
+}
