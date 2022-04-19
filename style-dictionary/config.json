@@ -1,0 +1,14 @@
+{
+  "source": ["./style-dictionary/tokens.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./src/style-dictionary-dist/",
+      "prefix": "token",
+      "files": [{
+        "destination": "variables.scss",
+        "format": "scss/variables"
+      }]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../style-dictionary-dist/variables.scss';
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $token-spacing-squish-size-xs-v $token-spacing-squish-size-xs-h;
+    background-color: $token-brand-color-primary-3;
+    border-radius: $token-radius-size-none;
+    border: 0px;
+    line-height: $token-line-height-tight;
+}
+
+button:hover{
+    background-color: $token-brand-color-primary-2;
+}
+
+.button-label{
+    font-family: $token-font-family-highlight;
+    font-weight: $token-font-weight-medium;
+    font-size: $token-font-size-sm;
+    color: $token-neutral-color-5;
+}
+
