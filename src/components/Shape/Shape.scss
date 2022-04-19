@@ -3,6 +3,7 @@
 .container {
     width: 300px;
     height: 427px;
+    padding: $token-spacing-size-lg;
     background-color: $token-neutral-color-5;
     border-radius: $token-radius-size-none;
     border-width: $token-border-size-thin;

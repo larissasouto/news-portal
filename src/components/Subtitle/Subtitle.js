@@ -1,10 +1,10 @@
 import React from 'react';
 import './Subtitle.scss';
 
-function Subtitle() {
+function Subtitle({subtitle}) {
   return (
     <text className="subtitle-text">
-     Subtitle SM
+     {subtitle}
     </text>
   );
 }
