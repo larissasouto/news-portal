@@ -1,0 +1,9 @@
+@import '../../style-dictionary-dist/variables.scss';
+
+.heading-text {
+    font-size: $token-font-size-lg;
+    font-family: $token-font-family-highlight;
+    font-weight: $token-font-weight-bold;
+    line-height: $token-line-height-distant;
+    color: $token-neutral-color-1;
+}

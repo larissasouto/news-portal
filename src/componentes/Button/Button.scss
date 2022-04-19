@@ -8,7 +8,6 @@
     background-color: $token-brand-color-primary-3;
     border-radius: $token-radius-size-none;
     border: 0px;
-    line-height: $token-line-height-tight;
 }
 
 button:hover{
@@ -19,6 +18,7 @@ button:hover{
     font-family: $token-font-family-highlight;
     font-weight: $token-font-weight-medium;
     font-size: $token-font-size-sm;
+    line-height: $token-line-height-tight;
     color: $token-neutral-color-5;
 }
 
