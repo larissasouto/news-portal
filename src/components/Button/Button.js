@@ -2,11 +2,16 @@ import React from 'react';
 
 import './Button.scss';
 
-function Button() { 
+function Button({source}) { 
   return (
-    <button className="button">
+    <button className="button" 
+      onClick={(e) => {
+      e.preventDefault();
+      window.open(source)}
+    }
+    >
       <text className="button-label">
-        Button Label
+        Ver mais
       </text>
     </button>
     

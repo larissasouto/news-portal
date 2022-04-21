@@ -1,9 +1,6 @@
 @import '../../style-dictionary-dist/variables.scss';
 
 .button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding: $token-spacing-squish-size-xs-v $token-spacing-squish-size-xs-h;
     background-color: $token-brand-color-primary-3;
     border-radius: $token-radius-size-none;

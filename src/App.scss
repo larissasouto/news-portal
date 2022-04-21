@@ -1,0 +1,18 @@
+@import './style-dictionary-dist/variables.scss';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #373b69;
+}
+
+.header {
+  background-color: #22254b;
+  display: flex;
+  justify-content: center;
+  font-size: $token-font-size-md;
+  font-family: $token-font-family-highlight;
+  font-weight: $token-font-weight-regular;
+  color: $token-neutral-color-5;
+}
